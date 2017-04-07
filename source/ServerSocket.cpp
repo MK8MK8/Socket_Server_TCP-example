@@ -5,6 +5,8 @@
 #include "../headers/SocketException.h"
 
 
+// ServerSocket constructor
+
 ServerSocket::ServerSocket ( int port ) {
 	
    if ( ! Socket::create() )
@@ -23,6 +25,8 @@ ServerSocket::ServerSocket ( int port ) {
    }
 
 }
+
+// ServerSocket destructor
 
 ServerSocket::~ServerSocket() {
 	
